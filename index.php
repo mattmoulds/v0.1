@@ -5,7 +5,7 @@
 	Matthew Moulds
   </title>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="css/style_1.css">
+    <link rel="stylesheet" href="css/style.css">
  </head>
  <body class="index loading">
   <section id="banner">
