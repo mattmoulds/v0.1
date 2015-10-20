@@ -2,7 +2,7 @@
 <html>
  <head>
   <title>
-	Matthew Moulds
+	Matt Moulds
   </title>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/style.css">
@@ -26,15 +26,15 @@
     </ul>
    </div>
   </section>
-
   <article id="main">
    <header class="special container">
     <h2>
-     <strong><p>
-	Welcome
-  </p></strong>
+     <strong>
+       <p>
+	      Welcome
+      </p>
+    </strong>
     </h2>
-
     <?php
      include('connect-db.php');
      $id = mysql_real_escape_string($_GET['id']);
