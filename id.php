@@ -5,18 +5,11 @@
 	Matt Moulds
   </title>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <script src="js/jquery.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/init.js"></script>
-   <noscript>
-    <link rel="stylesheet" href="css/skel.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/style-wide.css" />
-   </noscript>
+   <link rel="stylesheet" href="css/style.css">
  </head>
 
- <body class="index loading">	
-  <section id="banner">		
+ <body class="index loading">
+  <section id="banner">
    <div class="inner">
     <?php
      include('connect-db.php');
@@ -34,9 +27,9 @@
     </ul>
    </div>
   </section>
-		
+
   <article id="main">
-   <header class="special container">				
+   <header class="special container">
     <h2>
      <strong>
        <?php
@@ -59,10 +52,10 @@ $row = mysql_fetch_array($result);
 
 // Echo page content
 //echo $row['blog_header'];
-echo '<br>' . "<div id='blog_p'>". $row["blog_content"] . "</div><br>";
+echo '<br>' . "<h4>". $row["blog_content"] . "</h4><br>";
 ?>
 
-   </header>	
+   </header>
 
    <footer id="footer">
    </footer>
